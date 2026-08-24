@@ -1,0 +1,41 @@
+# Secrets
+.env
+.env.local
+web-next/.env.local
+
+# Compiled binaries
+chat_server
+chat_server_test
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal
+
+# CMake / build output
+build/
+
+# Node
+node_modules/
+
+# Next.js build output
+web-next/.next/
+web-next/out/
+
+# Local launcher state and logs
+runtime/
+
+# Python virtual environments and bytecode caches
+.venv/
+ai/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# TypeScript build info
+*.tsbuildinfo
+next-env.d.ts
+
+# OS files
+.DS_Store
+*.swp
